@@ -4,6 +4,12 @@ body {
   background: lavenderblush;
 }
 
+div {
+  margin: 0px;
+  width: 500px;
+
+}
+
 .container {
   position: absolute;
   width: 60%;
@@ -38,7 +44,7 @@ ul li {
 }
 
 a, a:visited {
-  color: black;
+  color: blue;
   text-decoration: none;
 }
 
