@@ -1,46 +1,43 @@
 body {
   margin: 0px;
   font-family: 'Inconsolata', monospace;
-  background: lavenderblush;
+  /* background: lavenderblush; */
+  overflow: hidden;
 }
 
-div {
-  margin: 0px;
-  width: 500px;
 
-}
 
 .container {
   position: absolute;
-  width: 60%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.toc-container {
-  background: #f2dff7;
-  padding: 32px;
-  line-height: 36px;
-  font-size: 22px;
-  position: relative;
-}
-
-.header {
-  text-transform: uppercase;
-  color: darkslateblue;
-  height: 40px;
-  margin-bottom: 50px;
-  font-family: 'Kosugi Maru', sans-serif;
-  text-align: center;
-}
-
-ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
   margin: 0px;
+  justify-content: center;
+  align-items: center;
 }
 
-ul li {
-  list-style-type: decimal-leading-zero;
+.background {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 50vh;
+  background-image: url("../img/centuar.png");
+  /* background-color: rgba(255,255,255,0.9); */
+  margin: 20px;
+}
+
+.text {
+  /* margin: 0px auto; */
+  /* width: 800px; */
+  
 }
 
 a, a:visited {
