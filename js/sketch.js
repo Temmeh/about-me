@@ -2,6 +2,7 @@ let resolution = 100;
 let mainGrid = [];
 let padding = 50;
 
+
 function preload() {
 
 }
@@ -25,8 +26,11 @@ function setup() {
 }
 
 function draw() {
+
     background(131, 153, 212);
     noStroke();
+    
+    
 
     for (let i = 0; i < cols; i++) {
         for (let j = 0; j < rows; j++) {
